@@ -1,14 +1,7 @@
 #Sitemap
 
 - Home
-	- About
-	- Rocks
-	- Minerals
-	- Gems
-	- Ores
-	- Fossils
-	- Space Rocks
-	- Gallery 
+- About
 - Rocks
 	- Definition
 	- Characteristics
