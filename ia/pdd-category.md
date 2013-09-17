@@ -4,11 +4,12 @@
 
 - Title
 - Subtitles
+- List of types/catagories for specimins
 - Image for introduction
-- Article  
 
 ## 2. Medium
 
+- Article  
 - Website branding, logo
 - Primary navigation
 
