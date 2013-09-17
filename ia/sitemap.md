@@ -1,0 +1,52 @@
+#Sitemap
+
+- Home
+	- About
+	- Rocks
+	- Minerals
+	- Gems
+	- Ores
+	- Fossils
+	- Space Rocks
+	- Gallery 
+- Rocks
+	- Definition
+	- Characteristics
+	- Categories (General Types)
+		- Magmatic
+		- Sedimentary
+		- Metamorphic
+	- Classification Techniques
+- Minerals
+	- Definition
+	- Characteristics
+	- Categories (General Types)
+	- Classification Techniques
+- Gems
+	- Definition
+	- Characteristics
+	- Categories (General Types)
+	- Classification Techniques
+- Ores
+	- Definition
+	- Characteristics
+	- Categories (General Types)
+	- Classification Techniques
+- Fossils
+	- Definition
+	- Characteristics
+	- Categories (General Types)
+	- Classification Techniques
+- Space Rocks
+	- Definition
+	- Characteristics
+	- Categories (General Types)
+	- Classification Techniques
+- Gallery
+	- Rocks
+	- Minerals
+	- Gems
+	- Ores
+	- Fossils
+	- Space Rocks
+	- World's Most Famous
