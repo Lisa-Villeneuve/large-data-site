@@ -1,6 +1,4 @@
----	
-#Style Report
----	
+#STYLE REPORT
 
 ##Style 1
 
@@ -10,10 +8,11 @@
 - Easier to make responsive
 - Relates to subject matter
 - Contrast will make printing easier
+- Colour can add hierarchy 
 
 ###Cons
 - Visibility over the texture
-- So many colours
+- So many colours, might confuse users
 
 ##Style 2
 
@@ -34,3 +33,7 @@
 
 ###Cons
 - Type will be hard to put in
+
+
+---
+I think style 3 would be more appropriate for the users because it will be more responsive, print out well, and have enough contrast.
