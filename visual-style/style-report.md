@@ -5,29 +5,32 @@
 ##Style 1
 
 ###Pros
-- A
-- A
+- Fun
+- Dynamic
+- Easier to make responsive
+- Relates to subject matter
+- Contrast will make printing easier
 
 ###Cons
-- A
-- A
+- Visibility over the texture
+- So many colours
 
 ##Style 2
 
 ###Pros
-- A
-- A
+- Fun
+- Good range of colour
 
 ###Cons
-- A
-- A
+- Hard to make responsive
+- Type will be hard to put in
 
 ##Style 3
 
 ###Pros
-- A
-- A
+- Clean
+- Easier to make responsive
+- Will print well
 
 ###Cons
-- A
-- A
+- Type will be hard to put in
