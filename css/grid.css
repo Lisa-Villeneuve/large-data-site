@@ -75,6 +75,7 @@
   }
   .unit-l-1 {
     display: block;
+    width: 100%;
   }
   .unit-l-1-2 {
     width: 50%;
@@ -90,6 +91,10 @@
   }
   .unit-l-3-4 {
     width: 75%;
+  }
+  
+  .unit-l-1-6 {
+	  width: 16.66667%;
   }
   
 }
