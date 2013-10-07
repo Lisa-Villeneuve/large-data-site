@@ -20,11 +20,14 @@ header {
 }
 
 nav {
+	display: block;
+	display: inline-block;
 	margin: 0;
 	padding: 0;
 }
 
 nav h1 {
+	display: inline-block;
 	margin: 0;
 	padding: 0;
 	font-size: 2.5em;
@@ -50,10 +53,12 @@ nav a:visited {
 
 nav a:hover,
 nav a:focus {
+	display: inline-block;
 	background-color: #E89012;
 }
 
 nav a:active {
+	display: inline-block;
 	color: #000;
 	background-color: #A46F24;
 }
