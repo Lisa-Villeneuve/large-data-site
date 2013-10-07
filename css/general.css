@@ -34,12 +34,15 @@ nav a {
 	padding: .5em;
 	display: inline-block;
 	min-width: 100%;
+	min-height: 100%;
 }
 
 
 nav a,
 nav a:link,
 nav a:visited {
+	min-width: 100%;
+	min-height: 100%;
 	display: inline-block;
 	text-decoration: none;
 	color: #FFF;
@@ -56,6 +59,8 @@ nav a:active {
 }
 
 nav .selected {
+	display: inline-block;
+	background-color: #FFD497;
 }
 
 
@@ -79,6 +84,16 @@ body {
 
 .unit-spacer {
 	padding: 1em;
+}
+
+.unit-spacer-2 {
+	margin: 2em;
+	padding: 1em;
+	background-color: #FFF;
+}
+
+.section-1 {
+	border-bottom: dashed 1px #E89012;
 }
 
 footer {
@@ -115,7 +130,7 @@ footer a {
 	border:1px solid #eeb44f;
 	display:inline-block;
 	color:#ffffff;
-	font-family:Arial Black;
+	font-family:Rockwell;
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
