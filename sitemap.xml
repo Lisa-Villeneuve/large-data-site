@@ -12,7 +12,7 @@
 			<loc> is the full URL for the page on your site, including domain
 			REQUIRED
 		-->
-      <loc>http://dinosaurs.com/</loc>
+      <loc>http://lisa-villeneuve.github.io/large-data-site/</loc>
    		<!--
 			THE LAST MODIFIED DATE
 			OPTIONAL
@@ -37,11 +37,11 @@
 		OPTIONAL
 		Default: 0.5
 	  -->
-      <priority>0.8</priority>
+      <priority>1.0</priority>
    </url>
 
 	<url>
-		<loc>http:// dinosaurs.com/herbivores.html</loc>
+		<loc>http://lisa-villeneuve.github.io/large-data-site/index.html</loc>
 	</url>
 
-</urlset> 
+</urlset>

@@ -2,17 +2,18 @@
 
 # TEAM
 
-Designer & Developer: Thomas J Bradley <hey@thomasjbradley.ca>
-Site: http://thomasjbradley.ca
-GitHub: https://github.com/thomasjbradley
-Twitter: @thomasjbradley
+Designer & Developer: Lisa Villeneuve <lisa@yamville.ca>
+Site: http://lisavilleneuve.ca
+GitHub: https://github.com/lisa-villeneuve
 Location: Ottawa, Canada
 
 ---
 
 # THANKS
 
-Icons from The Noun Project <http://thenounproject.com/>
+Button css from CSS Button Generator <http://www.cssbuttongenerator.com/>
+Grid css from Prof then added to by Lisa Villeneuve
+
 
 ---
 
@@ -20,14 +21,10 @@ Icons from The Noun Project <http://thenounproject.com/>
 
 ## Software
 
-- Sublime Text 3 (with Vintageous)
+- Adobe Dreamweaver CC
 - Git + GitHub
-- Grunt.js
-- CoffeeScript
-- Stylus
-- UglifyJS
-- Markdown
+- Mou
 
 ## Hosting
 
-- WiredTree <http://wiredtree.com>
+- Github <http://github.com>
