@@ -106,6 +106,26 @@ body {
 	border-bottom: dashed 1px #DBCFBD;
 }
 
+aside {
+	float: left;
+	display: inline-block;
+	background-color: #FFF;
+	padding: 1em;
+	margin: 2em;
+
+}
+
+aside a {
+	padding: .5em 0;
+	display: block;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.wrapper {
+	float: right;
+}
+
 footer {
 	padding: 1em;
 	background-color: #FFB006;
@@ -124,7 +144,7 @@ footer a {
 	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
 	box-shadow:inset 0px 1px 0px 0px #fce2c1;
 	background-color:#ffc477;
-	
+
 	-webkit-border-top-left-radius:5px;
 	-moz-border-radius-topleft:5px;
 	border-top-left-radius:5px;
@@ -140,7 +160,7 @@ footer a {
 	text-indent:0;
 	border:1px solid #eeb44f;
 	display:inline-block;
-	
+
 	color:#ffffff;
 	font-family:Rockwell;
 	font-size:15px;
@@ -164,21 +184,21 @@ footer a {
 	.logo-s {
 		border-bottom: dashed 1px #E89012;
 	}
-	
+
 	.unit-s-1 {
 		float: none;
 		width: 100%;
 	}
-	
+
 }
 
 @media only screen and (min-width: 38em) {
-	
+
 	.unit-m-1 {
 		float: none;
 		width: 100%;
 	}
-	
+
 	.section-1 {
 		width: 90%;
 		margin: auto;
@@ -211,6 +231,6 @@ footer a {
 		font: normal 110%/1.4 Rockwell,serif;
 	}
 
-	
+
 }
 
