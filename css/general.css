@@ -17,6 +17,7 @@ header {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	float: none;
 }
 
 nav {
@@ -102,28 +103,56 @@ body {
 	background-color: #FFF;
 }
 
+.unit-spacer-3 {
+	margin: 1em;
+}
+
 .section-1 {
 	border-bottom: dashed 1px #DBCFBD;
 }
 
-aside {
-	float: left;
-	display: inline-block;
-	background-color: #FFF;
-	padding: 1em;
-	margin: 2em;
-
+.article {
+	padding: 0;
+	margin: 0;
+	background-color: none;
 }
 
-aside a {
+.submenu {
+	display: block;
+	text-align: center;
+}
+
+.submenu a {
 	padding: .5em 0;
 	display: block;
 	min-width: 100%;
 	min-height: 100%;
 }
 
-.wrapper {
-	float: right;
+
+.submenu a:link,
+.submenu a:visited {
+	background-color: #FFB006;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.submenu a:hover,
+.submenu a:focus {
+	background-color: #E89012;
+}
+
+.submenu a:active {
+	color: #000;
+	background-color: #A46F24;
+}
+
+.submenu .selected {
+	background-color: #FFD497;
+}
+
+.article-text {
+	background-color: #FFF;
 }
 
 footer {
