@@ -1,4 +1,3 @@
-# http://geoclasify.ca
 # Show search engines where to find our sitemap
 Sitemap: http://lisa-villeneuve.github.io/large-data-site/sitemap.xml
 
