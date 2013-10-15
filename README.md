@@ -45,20 +45,20 @@ It's targeted at geology enthusiasts who are fascinated with finding out general
 ## To-do
 
 - [x] Research
-- [ ] Content organization
+- [x] Content organization
 - [ ] Tasks & priorities
-- [ ] Prototype
-- [ ] Style exploration
-- [ ] Writing exploration
+- [x] Prototype
+- [x] Style exploration
+- [x] Writing exploration
 - [ ] Component guide
-- [ ] Homepage design
+- [x] Homepage design
 - [ ] Inside pages
 - [ ] Comments
-- [ ] Categories
+- [x] Categories
 - [ ] Search results
-- [ ] Accessibility
+- [x] Accessibility
 - [ ] 404 page
-- [ ] SEO
+- [x] SEO
 - [ ] Metadata
 - [ ] Speed
 
