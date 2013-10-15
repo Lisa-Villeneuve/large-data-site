@@ -55,7 +55,6 @@ nav a:focus {
 }
 
 nav a:active {
-	color: #000;
 	background-color: #A46F24;
 }
 
@@ -86,6 +85,10 @@ body {
 	float: left;
 }
 
+.unit-right {
+	float: right;
+}
+
 .unit-2 {
 	float: right;
 	padding-top: 1em;
@@ -114,7 +117,6 @@ body {
 .article {
 	padding: 0;
 	margin: 0;
-	background-color: none;
 }
 
 .submenu {
@@ -125,8 +127,6 @@ body {
 .submenu a {
 	padding: .5em 0;
 	display: block;
-	min-width: 100%;
-	min-height: 100%;
 }
 
 
@@ -143,7 +143,6 @@ body {
 }
 
 .submenu a:active {
-	color: #000;
 	background-color: #A46F24;
 }
 
