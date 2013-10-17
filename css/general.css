@@ -140,6 +140,8 @@ body {
 }
 
 .submenu a {
+	border-left: solid 5px #FFB006;
+	border-right: solid 5px #FFB006;
 	padding: .5em 0;
 	display: block;
 }
@@ -147,9 +149,9 @@ body {
 
 .submenu a:link,
 .submenu a:visited {
-	background-color: #FFB006;
+	background-color: #FFF;
 	text-decoration: none;
-	color: #FFF;
+	color: #FFB006;
 }
 
 .submenu a:hover,
