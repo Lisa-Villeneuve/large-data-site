@@ -18,9 +18,9 @@
 	<meta property="twitter:url" content="http://lisa-villeneuve.github.io/large-data-site/index.html">
 	<!-- Image size: 120x120 -->
 	<meta property="twitter:images" content="http://lisa-villeneuve.github.io/img/thing.jpg">
-	<meta property="twitter:description" content="Rocks and minerals are a facinating topic for many geology enthusiasts and collectors">	<link href="css/general.css" rel="stylesheet">
-
-	<link href="css/grid.css" rel="stylesheet">
+	<meta property="twitter:description" content="Rocks and minerals are a facinating topic for many geology enthusiasts and collectors">
+	<link href="{{site.basurl}}/css/general.css" rel="stylesheet">
+	<link href="{{site.basurl}}/css/grid.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -33,14 +33,14 @@
 			<h1><a href="{{site.baseurl}}/index.html">GeoClassify<!---<img src="http://placehold.it/800x200/2" class="flex-img" alt="">--></a></h1>
 		</nav>
 		<nav class="unit unit-s-1 unit-m-2-3 unit-l-3-4">
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about.html">About</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about.html" class="{% if page.url contains 'about' %}selected{% endif %}">About</a></div>
 			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about.html">Rocks</a></div>
 			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about.html">Minerals</a></div>
 			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about.html">Gems</a></div>
 			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about.html">Ores</a></div>
 			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about.html">Fossils</a></div>
 			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about.html">Space-Rocks</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/gallery.html">Gallery</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/gallery/" class="{% if page.url contains 'gallery' %}selected{% endif %}">Gallery</a></div>
 		</nav>
 		<nav>
 			<div class="unit-2 searchbar">

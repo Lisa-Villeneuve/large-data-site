@@ -126,7 +126,7 @@ body {
 }
 
 .unit-spacer-4 {
-	margin: .5em 0em -.5em .5em;
+	margin: .5em .25em -.5em .25em;
 }
 
 .section-1 {
@@ -178,15 +178,10 @@ body {
 
 .gallery {
 	border-top: dashed 1px #DBCFBD;
-	margin: 0;
-	padding: 0;
 }
 
 .gallerynav {
-	background-color: #FFB006;
-	display: block;
-	margin: 0;
-	padding: 0;
+	margin: 1.5em 4px 0px 4px;
 	text-align: center;
 }
 
@@ -214,8 +209,9 @@ body {
 	background-color: #A46F24;
 }
 
-.gallerynav .selected {
+.gallerynav a .selected {
 	background-color: #FFD497;
+	color: #FFF;
 }
 
 .gallery h2 {
