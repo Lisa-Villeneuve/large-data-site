@@ -7,7 +7,7 @@
 html {
 	margin: 0;
 	padding: 0;
-	font: normal 100%/1.4 Rockwell,serif;
+	font: normal 100%/1.4 'Arvo', serif;
 	background-color: #F1ECE5;
 }
 
@@ -89,7 +89,7 @@ body {
 
 .searchbar {
 	color: rgba(255, 255, 255, 100);
-	font: normal 75%/1.4 Rockwell,serif;
+	font: normal 75%/1.4 'Arvo', serif;
 }
 
 .grid {
@@ -156,7 +156,8 @@ body {
 
 .submenu a:hover,
 .submenu a:focus {
-	background-color: #E89012;
+	background-color: #FFB006;
+	color: #FFF;
 }
 
 .submenu a:active {
@@ -176,7 +177,7 @@ footer {
 	background-color: #FFB006;
 	color: #fff;
 	border-top: dashed 1px #E89012;
-	font: normal 85%/1.4 Rockwell,serif;
+	font: normal 85%/1.4 'Arvo', serif;
 }
 
 footer a {
@@ -219,7 +220,6 @@ footer a {
 	background-color:#fb9e25;
 }.button-1:active {
 	background-color:#A46F24;
-	color: #000;
 	position:relative;
 	top:1px;
 }
@@ -273,7 +273,7 @@ footer a {
 	}
 
 	html {
-		font: normal 110%/1.4 Rockwell,serif;
+		font: normal 110%/1.4 'Arvo', serif;
 	}
 
 
