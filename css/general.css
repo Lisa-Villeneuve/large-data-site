@@ -26,6 +26,10 @@ h3 {
 	text-transform: uppercase;
 }
 
+p {
+	margin-top: 0.45em;
+}
+
 header {
 	background-color: #FFB006;
 	display: block;
@@ -121,7 +125,7 @@ figure {
 }
 
 .unit-spacer-2 {
-	margin: 2em;
+	margin: 1em;
 	padding: 1em;
 	background-color: #FFF;
 	min-height: 375px;
