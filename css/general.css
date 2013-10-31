@@ -124,6 +124,7 @@ figure {
 	margin: 2em;
 	padding: 1em;
 	background-color: #FFF;
+	min-height: 375px;
 }
 
 .unit-spacer-3 {
