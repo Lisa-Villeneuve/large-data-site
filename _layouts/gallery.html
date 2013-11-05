@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-	<div class="section-2 unit-spacer">
+	<div role="main" id="main" class="section-2 unit-spacer">
 		<h2>Gallery</h2>
 		<p>Rocks and minerals come in all sorts of shapes and sizes.  Each category has their own unique set of characteristics.  If you are trying to classify a specimen, you can compare it to the pictures in each subpage to find which category your specimen is in.  To find out what general category your specimen is in you can also check out the general pages at the top.  </p>
 	</div>
 
-	<div class="section-2 gallery">
+	<div role="subnavigation" id="subnavigation" class="section-2 gallery">
 		{% include gallerynav.html %}
 	</div>
 
-	<div class="grid section-2 unit-spacer">
+	<div role="complementary" id="complementary" class="grid section-2 unit-spacer">
 		{{content}}
 	</div>
