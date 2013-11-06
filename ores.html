@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+	<div class="grid article">
+		{% include submenu.html %}
+
+		<div class="unit-right article-text unit unit-s-1 unit-m-2-3 unit-l-3-4">
+			<div class="unit-right unit-s-1 unit-l-1-2">
+				<figure class="unit-spacer">
+					<img src="{{site.baseurl}}/img/ore-gold.png" class="flex-img" alt="Photo of gold ore">
+					<figcaption>Photo of gold ore</figcaption>
+				</figure>
+			</div>
+			<div role="main" id="main" class="unit unit-s-1 unit-l-1-2">
+				<div class="unit-spacer">
+					<h1>Ores</h1>
+					<h3 id="definition">Definition</h3>
+						<p>An ore is a type of rock that contains minerals with important elements including metals.</p>
+					<h3 id="characteristics">Characteristics</h3>
+						<p>An ore is a type of rock that contains minerals with important elements including metals.</p>
+					<h1 id="types">Ore Types</h1>
+					{% capture content %}{% include igneous.md %}{% endcapture %}
+					{{ content | markdownify }}
+					{% capture content %}{% include metamorphic.md %}{% endcapture %}
+					{{ content | markdownify }}
+					{% capture content %}{% include sedimentary.md %}{% endcapture %}
+					{{ content | markdownify }}
+				</div>
+			</div>
+		</div>
+	</div>

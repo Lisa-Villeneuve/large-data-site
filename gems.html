@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+	<div class="grid article">
+		{% include submenu.html %}
+
+		<div class="unit-right article-text unit unit-s-1 unit-m-2-3 unit-l-3-4">
+			<div class="unit-right unit-s-1 unit-l-1-2">
+				<figure class="unit-spacer">
+					<img src="{{site.baseurl}}/img/gems.png" class="flex-img" alt="Photo of gems">
+					<figcaption>Photo of Gems</figcaption>
+				</figure>
+			</div>
+			<div role="main" id="main" class="unit unit-s-1 unit-l-1-2">
+				<div class="unit-spacer">
+					<h1>Gems</h1>
+					<h3 id="definition">Definition</h3>
+						<p>A gem is a precious or semi-precious stone made of cut or polished mineral or rock, often used in jewelry</p>
+					<h3 id="characteristics">Characteristics</h3>
+						<p>A gem is a precious or semi-precious stone made of cut or polished mineral or rock, often used in jewelry</p>
+					<h1 id="types">Gems Types</h1>
+					{% capture content %}{% include igneous.md %}{% endcapture %}
+					{{ content | markdownify }}
+					{% capture content %}{% include metamorphic.md %}{% endcapture %}
+					{{ content | markdownify }}
+					{% capture content %}{% include sedimentary.md %}{% endcapture %}
+					{{ content | markdownify }}
+				</div>
+			</div>
+		</div>
+	</div>

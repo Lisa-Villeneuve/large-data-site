@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+	<div class="grid article">
+		{% include submenu.html %}
+
+		<div class="unit-right article-text unit unit-s-1 unit-m-2-3 unit-l-3-4">
+			<div class="unit-right unit-s-1 unit-l-1-2">
+				<figure class="unit-spacer">
+					<img src="{{site.baseurl}}/img/meteorite-pallasite-esquel.png" class="flex-img" alt="Photo of a meteorite">
+					<figcaption>Photo of a Pallasite Esquel meteorite</figcaption>
+				</figure>
+			</div>
+			<div role="main" id="main" class="unit unit-s-1 unit-l-1-2">
+				<div class="unit-spacer">
+					<h1>Meteorite</h1>
+					<h3 id="definition">Definition</h3>
+						<p>A meteorite is a solid piece of debris from outer space that survives its impact with the Earth's surface.</p>
+					<h3 id="characteristics">Characteristics</h3>
+						<p>A meteorite is a solid piece of debris from outer space that survives its impact with the Earth's surface.</p>
+					<h1 id="types">Meteorite Types</h1>
+					{% capture content %}{% include igneous.md %}{% endcapture %}
+					{{ content | markdownify }}
+					{% capture content %}{% include metamorphic.md %}{% endcapture %}
+					{{ content | markdownify }}
+					{% capture content %}{% include sedimentary.md %}{% endcapture %}
+					{{ content | markdownify }}
+				</div>
+			</div>
+		</div>
+	</div>

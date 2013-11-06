@@ -5,7 +5,7 @@ layout: default
 	<div class="grid article">
 		{% include submenu.html %}
 
-		<div class="article-text unit unit-s-1 unit-m-2-3 unit-l-3-4">
+		<div class="unit-right article-text unit unit-s-1 unit-m-2-3 unit-l-3-4">
 			<div class="unit-right unit-s-1 unit-l-1-2">
 				<figure class="unit-spacer">
 					<img src="{{site.baseurl}}/img/rocks.png" class="flex-img" alt="Photo of rocks">
@@ -14,7 +14,12 @@ layout: default
 			</div>
 			<div role="main" id="main" class="unit unit-s-1 unit-l-1-2">
 				<div class="unit-spacer">
-					<h1>Rocks Types</h1>
+					<h1>Rocks</h1>
+					<h3 id="definition">Definition</h3>
+						<p>Rocks are a naturally occurring solid composite of one or more <em>minerals</em> or <em>mineraloids</em>.</p>
+					<h3 id="characteristics">Characteristics</h3>
+						<p>Rocks are a naturally occurring solid composite of one or more <em>minerals</em> or <em>mineraloids</em>.</p>
+					<h1 id="types">Rock Types</h1>
 					{% capture content %}{% include igneous.md %}{% endcapture %}
 					{{ content | markdownify }}
 					{% capture content %}{% include metamorphic.md %}{% endcapture %}

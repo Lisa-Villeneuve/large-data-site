@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+	<div class="grid article">
+		{% include submenu.html %}
+
+		<div class="unit-right article-text unit unit-s-1 unit-m-2-3 unit-l-3-4">
+			<div class="unit-right unit-s-1 unit-l-1-2">
+				<figure class="unit-spacer">
+					<img src="{{site.baseurl}}/img/fossil-priscacara-liops.png" class="flex-img" alt="Photo of a fish fossil">
+					<figcaption>Photo of a Priscacra Liops Fish Fossil</figcaption>
+				</figure>
+			</div>
+			<div role="main" id="main" class="unit unit-s-1 unit-l-1-2">
+				<div class="unit-spacer">
+					<h1>Fossils</h1>
+					<h3 id="definition">Definition</h3>
+						<p>Fossils are the preserved remains or traces of living organisms in rock formations and sedimentary layers.</p>
+					<h3 id="characteristics">Characteristics</h3>
+						<p>Fossils are the preserved remains or traces of living organisms in rock formations and sedimentary layers.</p>
+					<h1 id="types">Fossil Types</h1>
+					{% capture content %}{% include igneous.md %}{% endcapture %}
+					{{ content | markdownify }}
+					{% capture content %}{% include metamorphic.md %}{% endcapture %}
+					{{ content | markdownify }}
+					{% capture content %}{% include sedimentary.md %}{% endcapture %}
+					{{ content | markdownify }}
+				</div>
+			</div>
+		</div>
+	</div>

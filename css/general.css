@@ -65,6 +65,7 @@ nav a {
 nav a:link,
 nav a:visited {
 	text-decoration: none;
+	font-weight: bold;
 	color: #FFF;
 }
 
@@ -78,7 +79,8 @@ nav a:active {
 }
 
 nav .selected {
-	background-color: #FFD497;
+	/*background-color: #FFD497;*/
+	background-color: #E89012;
 }
 
 body {
@@ -137,6 +139,18 @@ figure {
 
 .unit-spacer-4 {
 	margin: .5em .25em -.5em .25em;
+}
+
+.unit-spacer-4 a:hover,
+.unit-spacer-4 a:focus {
+	display: block;
+	background-color: #FFB006;
+}
+
+.unit-spacer-4 img:hover,
+.unit-spacer-4 img:focus {
+	opacity: 0.3;
+	filter: alpha(opacity=30);
 }
 
 .section-1 {
@@ -220,7 +234,7 @@ figure {
 }
 
 .gallerynav a .selected {
-	background-color: #FFD497;
+	background-color: #FFB006;
 	color: #FFF;
 }
 
@@ -302,6 +316,10 @@ footer a {
 
 	.article {
 		margin: 0em 1em 1em 0;
+	}
+
+	.submenu {
+		position: fixed;
 	}
 
 }
