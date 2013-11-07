@@ -233,7 +233,9 @@ figure {
 	background-color: #A46F24;
 }
 
-.gallerynav a .selected {
+.gallerynav a.selected,
+.gallerynav a:link.selected,
+.gallerynav a:visited.selected {
 	background-color: #FFB006;
 	color: #FFF;
 }
