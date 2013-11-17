@@ -103,6 +103,10 @@ figure {
 	font: normal 75%/1.4;
 }
 
+.searchbar input {
+	-webkit-appearance: searchfield;
+}
+
 .grid {
 	overflow: hidden;
 }
@@ -316,6 +320,11 @@ footer a {
 		margin: auto;
 	}
 
+	.section-3 {
+		width: 80%;
+		margin: auto;
+	}
+
 	.article {
 		margin: 0em 1em 1em 0;
 	}
@@ -339,6 +348,11 @@ footer a {
 
 	.section-2 {
 		width: 88%;
+		margin: auto;
+	}
+
+	.section-3 {
+		width: 60%;
 		margin: auto;
 	}
 
