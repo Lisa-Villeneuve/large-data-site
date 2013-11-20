@@ -1,3 +1,6 @@
+---
+---
+
 <url>
 	<loc>http://lisa-villeneuve.github.io/{{site.baseurl}}{{include.entry.url}}</loc>
 	<lastmod>2013-11-20</lastmod>
