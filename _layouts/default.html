@@ -2,7 +2,7 @@
 <html lang=en-ca>
 <head>
 	<meta charset="UTF-8">
-	<title>GeoClassify - Geology: the Study of Rocks and Minerals</title>
+	<title>{% if page.title %}{{page.title}} ・ {% endif %}GeoClassify - Geology: the Study of Rocks and Minerals{% if page.titleAfter %} ・ {{page.titleAfter}}{% endif %}</title>
 	<meta name="description" content="Rocks and minerals are a facinating topic for many geology enthusiasts and collectors">
 	<!-- Facebook -->
 	<meta property="og:type" content="article">
@@ -19,10 +19,7 @@
 	<!-- Image size: 120x120 -->
 	<meta property="twitter:images" content="lisa-villeneuve.github.io/large-data-site/img/rocks.png">
 	<meta property="twitter:description" content="Rocks and minerals are a facinating topic for many geology enthusiasts and collectors">
-  <link href="css/normalize.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/skiplinks.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	<meta name="handheldfriendly" content="true">
   <script src="js/modernizr.js"></script>
 	<meta name="mobileoptimized" content="240">
@@ -40,17 +37,17 @@
 
 	<header role="navigation" id="navigation" class="grid">
 		<nav class="unit unit-s-1 logo-s unit-m-1-3 unit-l-1-4">
-			<h1><a href="{{site.baseurl}}/index.html">GeoClassify<!---<img src="http://placehold.it/800x200/2" class="flex-img" alt="">--></a></h1>
+			<h1><a href="{{site.baseurl}}/">GeoClassify<!---<img src="http://placehold.it/800x200/2" class="flex-img" alt="">--></a></h1>
 		</nav>
 		<nav class="unit unit-s-1 unit-m-2-3 unit-l-3-4">
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about.html" class="{% if page.url contains 'about' %}selected{% endif %}">About</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/rocks.html" class="{% if page.url contains 'rocks' %}selected{% endif %}">Rocks</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/minerals.html" class="{% if page.url contains 'minerals' %}selected{% endif %}">Minerals</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/gems.html" class="{% if page.url contains 'gems' %}selected{% endif %}">Gems</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/ores.html" class="{% if page.url contains 'ores' %}selected{% endif %}">Ores</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/fossils.html" class="{% if page.url contains 'fossils' %}selected{% endif %}">Fossils</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/meteorites.html" class="{% if page.url contains 'meteorites' %}selected{% endif %}">Meteorites</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/gallery/rock.html" class="{% if page.url contains 'gallery' %}selected{% endif %}">Gallery</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about/" class="{% if page.url contains 'about' %}selected{% endif %}">About</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/rocks/" class="{% if page.url contains 'rocks' %}selected{% endif %}">Rocks</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/minerals/" class="{% if page.url contains 'minerals' %}selected{% endif %}">Minerals</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/gems/" class="{% if page.url contains 'gems' %}selected{% endif %}">Gems</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/ores/" class="{% if page.url contains 'ores' %}selected{% endif %}">Ores</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/fossils/" class="{% if page.url contains 'fossils' %}selected{% endif %}">Fossils</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/meteorites/" class="{% if page.url contains 'meteorites' %}selected{% endif %}">Meteorites</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/gallery/rock/" class="{% if page.url contains 'gallery' %}selected{% endif %}">Gallery</a></div>
 		</nav>
 		<nav>
 			<form class="unit-2 searchbar">
@@ -64,15 +61,15 @@
 
 	<header class="grid">
 		<nav class="unit unit-s-1 unit-m-1 unit-l-1">
-			<div class="unit unit-s-1 unit-m-1-3 unit-l-1"><a href="{{site.baseurl}}/index.html">HOME</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about.html" class="{% if page.url contains 'about' %}selected{% endif %}">About</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/rocks.html" class="{% if page.url contains 'rocks' %}selected{% endif %}">Rocks</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/minerals.html" class="{% if page.url contains 'minerals' %}selected{% endif %}">Minerals</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/gems.html" class="{% if page.url contains 'gems' %}selected{% endif %}">Gems</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/ores.html" class="{% if page.url contains 'ores' %}selected{% endif %}">Ores</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/fossils.html" class="{% if page.url contains 'fossils' %}selected{% endif %}">Fossils</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/meteorites.html" class="{% if page.url contains 'meteorites' %}selected{% endif %}">Meteorites</a></div>
-			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/gallery/rock.html" class="{% if page.url contains 'gallery' %}selected{% endif %}">Gallery</a></div>
+			<div class="unit unit-s-1 unit-m-1-3 unit-l-1"><a href="{{site.baseurl}}/">HOME</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/about/" class="{% if page.url contains 'about' %}selected{% endif %}">About</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/rocks/" class="{% if page.url contains 'rocks' %}selected{% endif %}">Rocks</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/minerals/" class="{% if page.url contains 'minerals' %}selected{% endif %}">Minerals</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/gems/" class="{% if page.url contains 'gems' %}selected{% endif %}">Gems</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/ores/" class="{% if page.url contains 'ores' %}selected{% endif %}">Ores</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/fossils/" class="{% if page.url contains 'fossils' %}selected{% endif %}">Fossils</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/meteorites/" class="{% if page.url contains 'meteorites' %}selected{% endif %}">Meteorites</a></div>
+			<div class="unit unit-s-1-2 unit-m-1-3 unit-l-1-8"><a href="{{site.baseurl}}/gallery/rock/" class="{% if page.url contains 'gallery' %}selected{% endif %}">Gallery</a></div>
 		</nav>
 	</header>
 

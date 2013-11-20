@@ -1,47 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+---
+---
 
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<!--
-	sitemap.xml shoudl be at the root of your domain
-	The same location as your index.html
--->
+	{% for post in site.posts %}
+		{% include sitemap-entry.xml entry=post %}
+	{% endfor %}
 
-   <url>
-   		<!--
-			<loc> is the full URL for the page on your site, including domain
-			REQUIRED
-		-->
-      <loc>http://lisa-villeneuve.github.io/large-data-site/</loc>
-   		<!--
-			THE LAST MODIFIED DATE
-			OPTIONAL
-		-->
-      <lastmod>2013-10-15</lastmod>
-   		<!--
-			Change frequency: suggest how often Google should spider the page
-			— never
-			— yearly
-			— monthly
-			— daily
-			— hourly
-			— always
-			OPTIONAL
-		-->
-      <changefreq>monthly</changefreq>
-	  <!--
-	  	Priority: how important this page is to your website
-		Between 0.1 and 1.0
-		0.1 — Least important
-		1.0 — Most important
-		OPTIONAL
-		Default: 0.5
-	  -->
-      <priority>1.0</priority>
-   </url>
-
-	<url>
-		<loc>http://lisa-villeneuve.github.io/large-data-site/index.html</loc>
-	</url>
+	{% for post in site.pages %}
+		{% if page.layout %}
+			{% include sitemap-entry.xml entry=page %}
+		{% endif %}
+	{% endfor %}
 
 </urlset>
