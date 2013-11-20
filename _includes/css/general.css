@@ -137,6 +137,7 @@ figure {
 	min-height: 375px;
 }
 
+
 .unit-spacer-3 {
 	margin: 1em;
 }
@@ -318,6 +319,11 @@ footer a {
 	.section-2 {
 		width: 90%;
 		margin: auto;
+	}
+
+	.unit-spacer-2 {
+		max-height: 375px;
+		overflow: auto;
 	}
 
 	.section-3 {
