@@ -155,7 +155,6 @@ figure {
 .unit-spacer-4 img:hover,
 .unit-spacer-4 img:focus {
 	opacity: 0.3;
-	filter: alpha(opacity=30);
 }
 
 .section-1 {
