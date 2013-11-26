@@ -94,7 +94,7 @@ figure {
 }
 
 .flex-img {
-	display: inline-block;
+	display: block;
 	width: 100%;
 }
 
@@ -143,7 +143,7 @@ figure {
 }
 
 .unit-spacer-4 {
-	margin: .5em .25em -.5em .25em;
+	margin: .5em .25em .05em .25em;
 }
 
 .unit-spacer-4 a:hover,
