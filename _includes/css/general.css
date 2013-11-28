@@ -11,6 +11,19 @@ html {
 	background-color: #F1ECE5;
 }
 
+body {
+	margin: 0 auto;
+	max-width: 700px;
+	padding: 0;
+}
+
+@media only screen and (min-width: 240px) {
+
+	body {
+		max-width: none;
+	}
+}
+
 h1 {
 	margin-top: 0em;
 	padding-top: 0em;
@@ -81,11 +94,6 @@ nav a:active {
 nav .selected {
 	/*background-color: #FFD497;*/
 	background-color: #E89012;
-}
-
-body {
-	margin: 0;
-	padding: 0;
 }
 
 figure {
