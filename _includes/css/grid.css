@@ -1,6 +1,6 @@
 .grid {
-  margin: 0;
-  padding: 0;
+  /*margin: 0;*/
+  /*padding: 0;*/
   letter-spacing: -0.31em;
   *letter-spacing: normal;
   *word-spacing: -0.43em;
@@ -10,7 +10,8 @@
 .grid {
   word-spacing: -0.43em;
 }
-.unit {
+.unit,
+.unit-2 {
   display: inline-block;
   *display: inline;
   visibility: visible;
@@ -20,6 +21,11 @@
   vertical-align: top;
   word-spacing: normal;
 }
+
+.unit-spacer {
+  padding: 1em;
+}
+
 /**
  * `units(prefix, cols = 4, add-offsets = false)`
  *
