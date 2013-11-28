@@ -3,5 +3,5 @@
 
 {% include css/normalize.min.css %}
 {% include css/general.css %}
-{% include css/grid.min.css %}
+{% include css/grid.css %}
 {% include css/skiplinks.min.css %}
