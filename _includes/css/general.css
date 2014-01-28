@@ -96,6 +96,12 @@ nav .selected {
 	background-color: #E89012;
 }
 
+.logo {
+	display: block;
+	margin-left: .55em;
+	width: 90%;
+}
+
 figure {
 	padding: 0;
 	margin: 0;
