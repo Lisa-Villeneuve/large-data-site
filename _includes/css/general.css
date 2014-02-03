@@ -7,7 +7,7 @@
 html {
 	margin: 0;
 	padding: 0;
-	font: normal 100%/1.5 'Arvo', serif;
+	font: normal 100%/1.5 'Arial', sans-serif;
 	background-color: #F1ECE5;
 }
 
@@ -36,6 +36,8 @@ body {
 	float: right;
 	position: fixed;
 	text-align: center;
+	box-shadow: 0px 0px 3px #FFF;
+	opacity: 50%;
 }
 
 .circle:hover,
@@ -395,11 +397,12 @@ footer a {
 	}
 
 	.article {
-		margin: 0em 1em 1em 0;
+		margin: 1em 1em 1em 0;
 	}
 
 	.submenu {
 		position: fixed;
+		margin-top: -1em;
 	}
 
 }
