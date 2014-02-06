@@ -25,7 +25,6 @@ body {
 }
 
 .circle {
-	visibility: hidden;
 	border: solid 5px #E89012;
 	text-decoration: none;
 	background-color: #E89012;
@@ -36,7 +35,7 @@ body {
 	float: right;
 	position: fixed;
 	text-align: center;
-	box-shadow: 0px 0px 3px #FFF;
+	box-shadow: 0px 0px 5px #FFF;
 	opacity: 50%;
 }
 
