@@ -307,6 +307,7 @@ figure {
 
 footer {
 	padding: 1em;
+	text-align: center;
 	background-color: #FFB006;
 	color: #fff;
 	border-top: dashed 1px #E89012;
