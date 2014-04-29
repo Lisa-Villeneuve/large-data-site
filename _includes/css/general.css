@@ -322,7 +322,7 @@ footer a {
 	border:1px solid #eeb44f;
 	display:inline-block;
 
-	color:#ffffff;
+	color: #fff;
 	font-size:14px;
 	font-weight:bold;
 	font-style:normal;
@@ -335,6 +335,7 @@ footer a {
 	color: #fff;
 }.button-1:active {
 	background-color:#A46F24;
+	color: #fff;
 	position:relative;
 	top:1px;
 }
