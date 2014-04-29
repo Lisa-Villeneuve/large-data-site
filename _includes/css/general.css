@@ -206,7 +206,7 @@ figure {
 }
 
 .section-2 a:hover {
-	color: #222;
+	text-decoration: underline;
 }
 
 .article {
@@ -332,6 +332,7 @@ footer a {
 	text-shadow:1px 1px 0px #cc9f52;
 }.button-1:hover {
 	background-color:#fb9e25;
+	color: #fff;
 }.button-1:active {
 	background-color:#A46F24;
 	position:relative;
