@@ -200,6 +200,10 @@ figure {
 	border-bottom: dashed 1px #DBCFBD;
 }
 
+.section-2 a {
+	text-decoration: none;
+}
+
 .section-2 a img,
 .section-2 a h2,
 .section-2 a p {
